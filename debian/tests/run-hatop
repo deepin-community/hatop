@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+set -e
+
+# run it
+
+hatop -h
+hatop --version
+
+# try a socket connection
+ln -s /usr/bin/hatop "${AUTOPKGTEST_TMP}/hatop.py"
+export PYTHONPATH="${AUTOPKGTEST_TMP}"
+SOCKET='/run/haproxy/admin.sock'
+
+python3 -c "import hatop; s=hatop.Socket('${SOCKET}', False); sd=hatop.SocketData(s); s.connect(); sd.update_info(); print(sd.info)"
+

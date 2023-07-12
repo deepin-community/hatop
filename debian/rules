@@ -1,4 +1,15 @@
 #!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+
+override_dh_auto_configure:
+	# nothing to do
+
+override_dh_auto_build:
+	# nothing to do
 
 %:
 	dh $@
+

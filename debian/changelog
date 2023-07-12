@@ -1,5 +1,29 @@
-template-repository (1.0-1) unstable; urgency=medium
+hatop (0.8.2-1) unstable; urgency=medium
 
-  * Initial release
+  * [c778a8f] New upstream version 0.8.2
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Bernd Zeimetz <bzed@debian.org>  Mon, 12 Dec 2022 14:28:25 +0100
+
+hatop (0.8.0-1) unstable; urgency=medium
+
+  * Taking over package maintenance within the python apps team,
+    re-introducing package into Debian.
+  * Switching to new/active upstream.
+
+  * [1cbae84] Update upstream source from tag 'upstream/0.8.0'
+    Update to upstream version '0.8.0'
+    with Debian dir c51a3735faf7698ac83fd4d89f2b7db61899a0b5
+
+ -- Bernd Zeimetz <bzed@debian.org>  Tue, 19 Jan 2021 08:00:39 +0100
+
+hatop (0.7.7-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- John Feuerstein <john@feurix.com>  Tue, 05 Oct 2010 17:21:11 +0000
+
+hatop (0.7.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #593496)
+
+ -- John Feuerstein <john@feurix.com>  Sat, 21 Aug 2010 18:52:40 +0000
